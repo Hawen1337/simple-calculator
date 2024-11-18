@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/adaptive.css">
+    <title>Калькулятор</title>
+</head>
+<body>
+    <header class="header"></header>
+    <main class="main">
+        <div class="line">
+            <p class="line-inner" id="line-inner"></p>
+        </div>
+        <div class="clear button">
+            <button class="clear-inner" id="clear-inner" onclick="addNumber('clear')">C</button>
+        </div>
+        <div class="delete button">
+            <button class="delete-inner" onclick="addNumber('delete')"><img class="delete-image" src="img/delete_icon.svg" alt="Delete"></button>
+        </div>
+        <div class="divide button">
+            <button class="divide-inner" onclick="addFunc('divide')">&divide;</button>
+        </div>
+        <div class="seven button">
+            <button class="seven-inner" onclick="addNumber('7')">7</button>
+        </div>
+        <div class="eight button">
+            <button class="eight-inner" onclick="addNumber('8')">8</button>
+        </div>
+        <div class="nine button">
+            <button class="nine-inner" onclick="addNumber('9')">9</button>
+        </div>
+        <div class="times button">
+            <button class="times-inner" onclick="addFunc('times')">&times;</button>
+        </div>
+        <div class="four button">
+            <button class="four-inner" onclick="addNumber('4')">4</button>
+        </div>
+        <div class="five button">
+            <button class="five-inner" onclick="addNumber('5')">5</button>
+        </div>
+        <div class="six button">
+            <button class="six-inner" onclick="addNumber('6')">6</button>
+        </div>
+        <div class="minus button">
+            <button class="minus-inner" onclick="addFunc('minus')">&minus;</button>
+        </div>
+        <div class="one button">
+            <button class="one-inner" onclick="addNumber('1')">1</button>
+        </div>
+        <div class="two button">
+            <button class="two-inner" onclick="addNumber('2')">2</button>
+        </div>
+        <div class="three button">
+            <button class="three-inner" onclick="addNumber('3')">3</button>
+        </div>
+        <div class="plus button">
+            <button class="plus-inner" onclick="addFunc('plus')">&plus;</button>
+        </div>
+        <div class="double_zero button">
+            <button class="double_zero-inner" onclick="addNumber('00')">00</button>
+        </div>
+        <div class="zero button">
+            <button class="zero-inner" onclick="addNumber('0')">0</button>
+        </div>
+        <div class="point button">
+            <button class="point-inner" onclick="addFunc('point')">.</button>
+        </div>
+        <div class="equals button">
+            <button class="equals-inner" onclick="addFunc('equals')">&equals;</button>
+        </div>
+    </main>
+    <footer class="footer">
+        <p class="footer-inner">Designed & coded by <a href="https://github.com/Hawen1337">Hawen</a></p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
