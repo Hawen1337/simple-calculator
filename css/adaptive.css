@@ -1,0 +1,26 @@
+@media (max-width: 360px) {
+    .main {
+        grid-template-columns: repeat(4, 66px);
+        grid-template-rows: 96px repeat(5, 66px);
+        grid-column-gap: 12px;
+        grid-row-gap: 12px; 
+    }
+
+    button {
+        border-radius: 18px;
+        width: 66px;
+        height: 66px;
+    }
+    
+    .main {
+        width: 300px;
+    }
+
+    .line, .line-inner, .footer, .footer-inner {
+        width: 300px;
+    }
+
+    #clear-inner {
+        width: 144px;
+    }
+}
